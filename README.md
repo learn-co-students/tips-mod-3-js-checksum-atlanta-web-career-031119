@@ -18,7 +18,7 @@ value; **the checksum is the sum of all of these differences**.
 Here's an example of a spreadsheet:
 
 ```js
-var data = [
+let data = [
   [2, 3, 7, 8],
   [0, 1, 3],
   [9, 2, 8, 3]
@@ -34,7 +34,7 @@ In this example, the spreadsheet's checksum would be `6 + 3 + 7 = 16`.
 Create a function to find the checksum of the following.
 
 ```js
-var data = [
+let data = [
   [409, 194, 207, 470, 178],
   [454, 235, 333, 511, 103],
   [474, 293, 525, 372, 408],
